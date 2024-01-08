@@ -1,0 +1,9 @@
+#CLI Theme
+
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+SHORT_NAME=$(whoami | cut -d "." -f 1)
+
+export PS1="$SHORT_NAME \[\033[32m\]\w\[\033[36m\]\$(parse_git_branch)\033[31m\]\[\033[00m\] $ "
