@@ -12,7 +12,7 @@ This is what it looks like before you change your bash theme (not as usable):
 and after adding my custom profile:
 ![Alt text](after_bash.png)
 
-### This is how you make it work if you've never done this before. 
+**This is how you make it work:**
 
 1. Navigate to your root directory `cd ~`
 2. If you have an existing bash profile, open it with `open .bash_profile` or create one with `touch .bash_profile` and then open it.
