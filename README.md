@@ -7,10 +7,10 @@ There is a whole world of shell customization out there such as [ohmyzsh](https:
 However, most of them are overbuilt for new developers. This bash profile has the basics. It shows your device name, what path you are in, and your git branch. No more. No less.
 
 This is what it looks like before you change your bash theme (not as usable):
-![Alt text](before_bash.png)
+![Alt text](before.png)
 
 and after adding my custom profile:
-![Alt text](after_bash.png)
+![Alt text](after.png)
 
 **This is how you make it work:**
 
